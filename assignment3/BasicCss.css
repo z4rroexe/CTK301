@@ -1,0 +1,64 @@
+h1{ 
+    color:red;
+    background-color:yellow;
+}    
+
+header {
+    background-color: green;
+}
+
+.turnedblue { 
+    color: blue;
+    font-weight: bold;
+}
+
+#orangeblue {
+    color:orange;
+    background-color: blueviolet;
+}
+
+#browngreen {
+    color: brown;
+   
+}
+.browngreen {
+    color: brown;
+    background-color: green
+
+}
+
+
+/* CSS */
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: burlywood;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }     
+
+/* CSS */
+a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
