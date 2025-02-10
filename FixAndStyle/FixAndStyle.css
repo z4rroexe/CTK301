@@ -1,0 +1,47 @@
+h1 {
+    color: white;
+    background-color:skyblue;
+}
+
+header{
+    background-color: skyblue;
+}
+
+h2 { 
+    color: blue;
+    font-weight: bold;
+}
+
+#orange{
+    color: orange;
+}
+
+h3 {
+    color:darkgreen;
+    background-color: yellow;
+}
+
+.turnedred {
+    color:red;
+}
+
+h4 {
+    color:yellow;
+    background-color: darkgreen;
+}
+
+.turnedgreenyellow{ 
+    background-color: greenyellow;
+}
+
+h5{
+    color: red;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+.blue{ 
+    color: blue;
+}
