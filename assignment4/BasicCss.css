@@ -1,0 +1,120 @@
+body{
+  background-color: beige;
+}
+
+.imgbox {
+  border: 20px solid #000000;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
+  background-color: #ffe607;
+}
+
+h1{ 
+    color:red;
+    background-color:yellow;
+    color: orange;
+    font-weight: normal;
+    font-style: italic;
+  }
+
+h2 {
+    color: orange;
+    font-weight: normal;
+    font-style: italic;
+} 
+
+h3{
+    color: orange;
+    font-weight: normal;
+    font-style: italic;
+}
+
+header {
+    background-color: green;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+b {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.turnedblue { 
+    color: blue;
+    font-weight: bold;
+}
+
+#orangeblue {
+    color:orange;
+    background-color: blueviolet;
+}
+
+#browngreen {
+    color: brown;
+   
+}
+.browngreen {
+    color: brown;
+    background-color: green
+
+}
+
+
+/* CSS */
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: burlywood;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }     
+
+/* CSS */
+a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+ .pwidth {
+    width: 100px;
+  }
+  
+  .textcenter {
+    text-align: center;
+  }
+
+  .justify {
+    text-align: justify;
+    width: 50%; 
+    margin: auto;
+  }
+
+  body {
+    background-color: #dadfdb;
+    background-image: url(akatsuki.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+}      
+
