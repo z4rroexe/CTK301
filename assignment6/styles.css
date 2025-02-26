@@ -1,0 +1,106 @@
+body {
+    background: url('a62.png') repeat;
+}
+
+.container {
+    width: 900px;
+    margin: 20px auto;
+    background: white;
+    border: 5px solid black;
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+
+.floatimg {
+    float: left;
+    margin-right: 15px;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    background: black;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    grid-column: span 12;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.borderbottom{
+    border-bottom: 4px solid black;
+}
+
+main{ 
+    grid-column: span 9;
+    margin: 20px;
+    padding: 0%;
+}
+
+ul {
+    grid-column: span 3;
+    list-style-type: none;
+    padding-left: 1;
+}
+
+li {
+    margin: 5px 0;
+}
+
+li a {
+    display: block;
+    background: red;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    border: 2px solid darkred;
+    cursor: pointer;
+}
+
+li a:hover {
+    background: darkred;
+    color: white;
+}
+
+a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+p:first-of-type, p:nth-of-type(2), p:nth-of-type(3) {
+    font-weight: bold;
+    text-align: justify;
+}
+
+img {
+    border: 5px solid black;
+    display: block;
+    margin: 10px auto;
+}
+
+footer {
+    background: red;
+    color: white;
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    grid-column: span 12;
+}
