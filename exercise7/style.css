@@ -1,0 +1,114 @@
+body {
+    background: url('greenart.jpg') repeat;
+}
+
+.container {
+    width: 1100px;
+    margin: 20px auto;
+    background: white;
+    border: 5px solid black;
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+   
+}
+
+.floatimg {
+    float: right;
+    margin-right: 5%;
+    width: 270px;
+}
+
+h1 {
+    font-family: Helvetica, Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    background: rgb(0, 140, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 1px;
+    grid-column: span 12;
+}
+
+h2 {
+    font-family: Helvetica, Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+aside {
+    grid-column: span 3;
+    background-color: lightblue;
+    padding: 0 1em 1em 1em;
+    margin: 10px;
+    color: white
+}
+
+.borderbottom{
+    border-bottom: 4px solid black;
+}
+
+.bottomborder{
+    border-bottom: 4px solid rgb(255, 255, 255);
+}
+
+main{ 
+    grid-column: span 9;
+    margin: 20px;
+    padding: 0%;
+}
+
+ul {
+    grid-column: span 12;
+    list-style-type: none;
+    padding-top: 1;
+}
+
+li {
+    margin: 5px 0;
+    width: 200px;
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    background: rgb(54, 226, 32);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Helvetica, Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 2px solid rgb(12, 139, 0);
+    cursor: pointer;
+}
+
+li a:hover {
+    background: rgb(0, 139, 74);
+    color: white;
+}
+
+a {
+    color: rgb(0, 255, 64);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+
+footer {
+    background: rgb(0, 162, 255);
+    color: white;
+    font-family: Helvetica, Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: left;
+    padding: 10px;
+    margin-top: 20px;
+    grid-column: span 12;
+    border-top: 4px solid black;
+}
