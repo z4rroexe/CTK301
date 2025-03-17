@@ -1,0 +1,21 @@
+aside {
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: justify;
+    grid-column: 6 / 13;
+    grid-row: 3 / 13;
+    background-color: #a6c5e2;
+    font-weight: bold;
+    }
+
+main {
+    float: right;
+    margin-right: 15px;
+}
+
+#float_left {
+float: right;
+border: solid 4px blue;
+margin-right: 12px;   
+
+}

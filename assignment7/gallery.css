@@ -1,0 +1,50 @@
+#Carmy {
+    grid-column: span 4;
+    margin-left: 12px;
+
+}
+#Carmy a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+#Carmy a:hover {
+    color: darkred
+}
+
+#Sydney {
+    grid-column: span 4;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+#Sydney a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+#Sydney a:hover{
+    color: darkred;
+}
+#Richie {
+    grid-column: span 4;
+    margin-right: 12px;
+}
+#Richie a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+#Richie a:hover {
+    color: darkred
+}
+
+.gallery-item {
+   text-align: center;
+   align-items: center;
+  }
+
+.gallery-item img {
+    width: 100%;
+}
+
+
