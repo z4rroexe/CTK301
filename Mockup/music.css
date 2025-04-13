@@ -91,3 +91,14 @@ footer {
   text-align: center;
   font-weight: bold;
 }
+
+footer div a {
+  margin: 0 10px;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+footer div a:hover {
+  color: #ffcc00;
+}
+
