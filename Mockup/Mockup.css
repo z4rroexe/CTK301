@@ -126,3 +126,49 @@ footer .social-links a {
 footer .social-links a:hover {
   color: #ffcc00;
 }
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+body.dark-mode a {
+  color: #90caf9;
+}
+
+body.dark-mode nav {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode #wrapper {
+  background-color: #1e1e1e;
+}
+
+#darkModeToggle {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 1000;
+  border-radius: 8px;
+}
+
+body.dark-mode .project-title {
+  color: white;
+}
+
+/* Animate title text only */
+h1 span {
+  display: inline-block;
+  animation: fadeInText 3s ease-in-out forwards;
+}
+
+@keyframes fadeInText {
+  0% { opacity: 0; transform: translateY(-10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
