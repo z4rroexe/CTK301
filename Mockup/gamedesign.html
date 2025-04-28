@@ -8,20 +8,22 @@
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
-<button id="darkModeToggle">Toggle Dark Mode</button>
-<script>
-    document.getElementById('darkModeToggle').addEventListener('click', function() {
-        document.body.classList.toggle('dark-mode');
-        localStorage.setItem('dark-mode', document.body.classList.contains('dark-mode'));
-    });
-    if (localStorage.getItem('dark-mode') === 'true') {
-        document.body.classList.add('dark-mode');
-    }
-</script>
 <body>
+	<button id="darkModeToggle">Toggle Dark Mode</button>
+	<script>
+		document.getElementById('darkModeToggle').addEventListener('click', function() {
+			document.body.classList.toggle('dark-mode');
+			localStorage.setItem('dark-mode', document.body.classList.contains('dark-mode'));
+		});
+		if (localStorage.getItem('dark-mode') === 'true') {
+			document.body.classList.add('dark-mode');
+		}
+	</script>
 	<div id="wrapper">
 		<h1><span>Jalo's Portfolio</span></h1>
-		<img id="featureimg" src="GIthub 1.png">
+		
+		<img id="featureimg" src="game design roblox pf.png">
+		<nav>
 		<nav>
 			<ul>
 				<li><a href="Mockup.html">Web Design</a></li>
@@ -32,8 +34,9 @@
 		<main>
 			<section>
 				<h2 class="project-title">Game Design</h2>
-				<img src="Project 1.png">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eros risus, tempor non laoreet a, porttitor sed nisi.</p>
+				<a href="https://www.roblox.com/games/496178125/JayIsReadyTodays-Place" target="_blank">
+				<img src= "roblox edit.png"></a>
+				<p>Designing a game in roblox studio.</p>
 			</section>
 		</main>
 		<footer>
