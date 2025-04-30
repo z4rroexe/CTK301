@@ -2,21 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>webdesign</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jalo's Portfolio</title>
 	<link href="Mockup.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/a076d05399.js" 
+	crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-
-<header class="custom-header">
-	<h1><a href="AboutMe.html" style="text-decoration: none; color: inherit;">ABOUT ME</a></h1>
-	<div class="social-icons">
-	  <a href="https://www.linkedin.com/in/jaylon-brown-b98ab4330/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-	  <a href="https://github.com/z4rroexe" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-	  <a href="https://www.instagram.com/twodotjay/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-	</div>
-  </header>
 
 <body>
 	<button id="darkModeToggle">Toggle Dark Mode</button>
@@ -32,23 +25,43 @@
 	<div id="wrapper">
 		<h1><span>Jalo's Portfolio</span></h1>
 		
-		<img id="featureimg" src="music.png">
+		<img id="featureimg" src="me.png">
 		<nav>
 			<ul>
 				<li><a href="Mockup.html">Web Design</a></li>
         		<li><a href="gamedesign.html">Game Design</a></li>
         		<li><a href="music.html">Music</a></li>
 			</ul>
+			<section id="about">
+				<h2 class="project-title">About Me</h2>
+				<p>
+					Hello! I'm Jalo, a Sophomore at Illinois State University passionate about Video Games, Music, Art, and Pretty Skies.
+					This portfolio showcases some of my work in web design, as well as some of my personal pieces of work that I'm continuing to work on. Stay tuned for updates!
+				</p>
+			</section>
 		</nav>
 		<main>
-			  <section>
-				<h2 class="project-title">My Music</h2>
-				<audio controls>
-				  <source src="forproject.mp3" type="audio/mp3">
-				  Your browser does not support the audio element.
-				</audio>
-				<p>An old song from last semester about a recent heartbreak</p>
-			  </section>
+			<section>
+				<h2 class="project-title">Steam</h2>
+				<a href="https://steamcommunity.com/id/twodotjay/" target="_blank">
+					<img src="Steam.png" alt="Project 1">
+				  </a>
+				<p>My Steam Profile</p>
+			</section>
+			<section>
+				<h2 class="project-title">Main Instagram</h2>
+				<a href="https://www.instagram.com/twodotjay/" target="_blank">
+					<img src="Main Insta.png" alt="Project 2">
+				  </a>
+				<p>My Personal instagram</p>
+			</section>
+			<section>
+				<h2 class="project-title">Second Instagram</h2>
+				<a href="https://www.instagram.com/doublekrossme/" target="_blank">
+					<img src="Side Insta.png" alt="Project 3">
+				  </a>
+				<p>My Expressive Instagram, where I test my photographer skills and just express my thoughts.</p>
+			</section>
 		</main>
 		<footer class="site-footer">
 			<p>© 2025 Jaylon Brown. All rights reserved.</p>
@@ -64,6 +77,5 @@
 			</div>
 		  </footer>
 	</div>
-
 </body>
 </html>
